@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaverilista versio 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar-container">
+            <div class="navbar">
+                <a href="index.html">Versio 1</a>
+                <a href="kaverilista2.html">Versio 2</a>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div id="main">
+            <h1>Kaverilista versio 2</h1>
+            <p>Lisää kavereita listaan. Jos tuli väärä kaveri, poista se. Halutessasi voit järjestää listan
+                aakkosjärjestykseen.</p>
+                <form id="form" class="form-style">
+                    <input type="text" id="kaveri_nimi" placeholder="Syötä nimi:">
+                    <input type="button" id="lisaa_kaveri" value="Lisää kaveri">
+                    <input type="button" id="poista_kaveri" value="Poista kaveri">
+                    <input type="button" id="jarjesta_kaverit" value="Järjestä kaverit">
+                </form>
+            <ul id="kaverilista" class="list-item">
+            </ul>
+        </div>
+    </div>
+    <script src="kaverilista2.js"></script>
+</body>
+</html>
