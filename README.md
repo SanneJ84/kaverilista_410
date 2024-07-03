@@ -1,1 +1,3 @@
-# kaverilista_410
+# KAVERILISTA
+## Kaverilista sovelluksen toteutus
+### Kaksi versiota
